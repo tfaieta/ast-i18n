@@ -103,10 +103,12 @@ module.exports = {
       'size',
       'charSet',
       'content',
-      'aria-hidden'
+      'aria-hidden',
+      'helpURLHTML',
     ],
     blackListCallExpressionCalle: [
       't',
+      'helpURLHTML',
       'modal',
       'children',	
       'flex',	
