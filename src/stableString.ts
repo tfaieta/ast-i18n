@@ -1,7 +1,7 @@
 import { remove } from 'diacritics';
 import slugify from 'slugify';
 
-export const getStableKey = (str: string, keyMaxLenght: number = 24) => {
+export const getStableKey = (str: string, keyMaxLenght: number = 32) => {
   const cleanStr = remove(str)
     .toLocaleLowerCase()
     .normalize('NFD')

@@ -18,7 +18,7 @@ const argv = yargs
     'src',
     'The source to collect strings'
   )
-  .default('keyMaxLength', 40)
+  .default('keyMaxLength', 32)
   .describe(
     'src',
     'The source to collect strings'
